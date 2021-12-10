@@ -35,7 +35,7 @@ function gameEngine() {
         //gameoversound.play();
         //musicsound.pause();
         inputDir= { x: 0, y: 0 };
-        swal("Game Over!", "Press 'Enter' to Play Again", "info");
+        alert("Game Over! press ENTER to play again.");
         snakeArr = [{ x: 13, y: 15 }];
         musicsound.play();
         score=0;
